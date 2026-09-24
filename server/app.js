@@ -10,7 +10,7 @@ app.use(express.json())
 dotenv.config()
 
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://lmschaitanya.netlify.app",
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
     credentials: true
 }));
